@@ -31,7 +31,7 @@ bool is_safe_sequence(const vector<int>& levels) {
     return true;
 }
 
-bool can_be_safe_with_removal(const std::vector<int>& levels) {
+bool can_be_safe_with_removal(const vector<int>& levels) {
     // Try removing each level one at a time
     for (size_t skip_idx = 0; skip_idx < levels.size(); skip_idx++) {
         std::vector<int> modified_levels;
